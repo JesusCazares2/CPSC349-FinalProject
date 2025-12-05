@@ -1,0 +1,43 @@
+#events-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.event-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.event-group ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#events-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.event-item {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.event-item:hover {
+  background-color: lightgray;
+}
+.event-item.selected {
+  background-color: yellow;
+}
+
+.event-item button {
+  margin-left: 10px;
+}

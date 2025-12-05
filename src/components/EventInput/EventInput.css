@@ -1,0 +1,40 @@
+.task-maker {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-maker select {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  height: 50px;
+}
+
+.task-maker select:hover {
+  background-color: lightgray;
+}
+
+.task-maker button {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  height: 50px;
+}
+
+.event-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  gap: 10px;
+}
+
+.event-input input {
+  flex: 1;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  height: 50px;
+}
+
+.tag-select {
+  padding: 6px 10px;
+  border-radius: 6px;
+}
